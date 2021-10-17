@@ -1,0 +1,45 @@
+[
+    {
+        "id":1,"img":"https://www.emedicinehealth.com/images/article/main_image/complete-blood-count-1.jpg","name":"Complete Blood Count(CBC)","description":"The complete blood count (CBC) is a group of tests that evaluate the cells that circulate in blood, including red blood cells (RBCs), white blood cells (WBCs), and platelets (PLTs).","doctor":"Dr Abul Faiz"
+    },
+
+    {
+        "id":2,"img":"https://awamilab.com/wp-content/uploads/2020/04/crp-test-gujrat.png","name":"C-Reactive Protein (CRP)","description":"The C-reactive protein (CRP) test measures the amount of CRP in your blood. CRP is a type of protein that is associated with inflammation in the body. CRP is measured using a small blood sample drawn from a vein in your arm.","doctor":"Dr Sagor Shil"
+    },
+
+    {
+        "id":3,"img":"https://www.midmark.com/images/default-source/service-support/kbecg-vleads.jpg?sfvrsn=12c7f0fb_0","name":"Electrocardiogram (ECG)","description":"An electrocardiogram records the electrical signals in heart. Its a common and painless test used to quickly detect heart problems and monitor hearts health.","doctor":"Dr Devi Shetty"
+    },
+
+    {
+        "id":4,"img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh44AcQL-48Gp7zw0hhKWdy6xPEKm3AdDh_Q&usqp=CAU","name":"Ultrasound","description":"An ultrasound scan is a medical test that uses high-frequency sound waves to capture live images from the inside of body.An ultrasound allows doctor to see problems with organs, vessels, and tissues without needing to make an incision.","doctor":"Dr Sraboni Barua"
+    },
+
+    {
+        "id":5,"img":"https://previews.123rf.com/images/artinspiring/artinspiring1710/artinspiring171000119/87399874-people-at-mri-scan-.jpg","name":"MRI","description":"Magnetic resonance imaging (MRI) is a medical imaging technique that uses a magnetic field and computer-generated radio waves to create detailed images of the organs and tissues in body","doctor":"Dr Fran Joseph"
+    },
+
+    {
+        "id":6,"img":"https://primayahospital.com/wp-content/uploads/2019/01/ct-scan.jpg.webp","name":"CT Scan","description":"A CT scan or computed tomography scan is a medical imaging technique used in radiology to get detailed images of the body noninvasively for diagnostic purposes. The personnel that perform CT scans are called radiographers or radiology technologists","doctor":"Dr Aslam Abdullah"
+    },
+    
+    {
+        "id":7,"img":"https://gialliance.com/wp-content/uploads/2020/01/Polyps.jpg","name":"Colonoscopy","description":"A colonoscopy is a test that allows a healthcare provider to see inside large intestine. This procedure is done with a flexible camera called a scope. This test is used to check out symptoms like bleeding, as well as look for polyps and possible signs of colon cancer","doctor":"Dr A K M Fazlul Haque"
+    },
+
+    {
+        "id":8,"img":"https://assets.nhs.uk/nhsuk-cms/images/ADTYWB.width-320.jpg","name":"Encoscopy","description":"An endoscopy is a procedure where organs inside body are looked at using an instrument called an endoscope. An endoscope is a long, thin, flexible tube that has a light and camera at one end. Images of the inside of body are shown on a television screen.","dcotor":"Dr Ajay Kumar"
+    },
+
+    {
+        "id":9,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf8si0gs5l9Ui2u3ryi3UWwlwHvDwAbFVhzQ&usqp=CAU",
+        "name":"Creatinine Test",
+        "description":"A creatinine test is a measure of how well kidneys are performing their job of filtering waste from blood.Healthy kidneys filter creatinine out of the blood. Creatinine exits your body as a waste product in urine.A measurement of creatinine in blood or urine provides clues to help doctor determine how well the kidneys are working.",
+        "doctor":"Dr Vasu Dev Dey"
+    },
+
+    {
+        "id":10,"img":"https://ufhealth.org/sites/default/files/graphics/images/en/9252.jpg","name":"Cystography Test","description":"Cystography is the radiological examination of the bladder and cystourethrography in the radiological evaluation of the bladder and urethra. The technique involves the introduction of contrast into the bladder through the urethra with the help of a catheter, helping the doctor visualize anatomic defects and other pathologies","doctor":"Dr Saida Parvin"
+    }
+]
