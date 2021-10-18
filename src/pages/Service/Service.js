@@ -2,13 +2,20 @@ import React from 'react';
 import './Service.css';
 
 const Service = (props) => {
-    
-    // const {img} = props?.service;
+    const {name, img, description, doctor} = props.service;
 
-    // console.log(service);
     return (
-        <div>
-          <h2>service</h2>
+        <div className="service">
+            <img src={img} alt="" />
+            <div className="service-info">
+            <h2>{name}</h2>
+            <p>{description}</p>
+            <h4>{doctor}</h4>
+            
+            </div>
+            <div className="button">
+            <button className="detail-btn">Details</button>
+            </div>
         </div>
     );
 };

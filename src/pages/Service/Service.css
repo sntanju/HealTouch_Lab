@@ -1,0 +1,27 @@
+.service {
+    margin: 15px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgba(210, 105, 30, 0.308);
+    color:darkslategray;
+    
+}
+.service-info {
+    margin-left: 20px;
+    text-align: left;
+    height: 250px;
+}
+.button {
+    margin-left: 20px;
+    text-align: left;
+}
+.detail-btn {
+
+    background-color:rgba(18, 151, 18, 0.63);
+    color: white;
+    
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 15px;
+}

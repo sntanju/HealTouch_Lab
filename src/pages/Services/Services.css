@@ -1,0 +1,11 @@
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+    padding: 10px;
+}
+.services img {
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+}

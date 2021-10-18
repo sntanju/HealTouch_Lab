@@ -13,7 +13,7 @@ const Services = () => {
     } ,[]);
 
     return (
-        <div>
+        <div className="services">
             
                 {
                     services.map(service => <Service

@@ -1,7 +1,8 @@
 .top-banner {
     background-image: url('https://i.ibb.co/7nqkDfz/hospital-reception-vector-illustration-cartoon-flat-patient-characters-waiting-doctors-appointment-h.png');
     background-repeat: no-repeat;
-    height: 1000px;
+    height: 550px;
+   
 }
 .top-banner h1 {
     background-color: rgb(30, 30, 31);
@@ -13,5 +14,5 @@
 }
 .web-name {
     color:tomato;
-    font-weight: 1000px;
+    
 }
