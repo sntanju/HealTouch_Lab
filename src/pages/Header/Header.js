@@ -18,6 +18,9 @@ const Header = () => {
                  <NavLink style={{textDecoration:"none", margin: '10px', padding: '10px', color: 'white', backgroundColor: 'teal' ,border: '1px solid gray', borderRadius: '5px'}}  to="#features">About Us</NavLink>
 
                  <NavLink  style={{textDecoration:"none", margin: '10px', padding: '10px', color: 'white', backgroundColor: 'teal' ,border: '1px solid gray', borderRadius: '5px'}}  to="#pricing">Contact Us</NavLink>
+                 
+                 <NavLink  style={{textDecoration:"none", margin: '10px', padding: '10px', color: 'white', backgroundColor: 'teal' ,border: '1px solid gray', borderRadius: '5px'}}  to="#pricing">Login</NavLink>
+
 
                  </Nav>
                 </Container>

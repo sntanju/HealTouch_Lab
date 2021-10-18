@@ -10,6 +10,7 @@ function App() {
         <Router>
           <Switch>
           <Home></Home>
+          
           </Switch>
        </Router>
     </div>
