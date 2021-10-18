@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = (props) => {
-    const {name, img, description, doctor} = props.service;
+    const {id, name, img, description, doctor} = props.service;
 
     return (
         <div className="service">
@@ -14,7 +15,8 @@ const Service = (props) => {
             
             </div>
             <div className="button">
-            <button className="detail-btn">Details</button>
+            <Link to={`/allservices/${id}`}>
+            <button className="detail-btn">Choose {name}</button></Link>
             </div>
         </div>
     );
