@@ -27,7 +27,7 @@ const Header = () => {
                 <NavLink  style={{textDecoration:"none", margin: '10px', padding: '10px', color: 'white', backgroundColor: 'teal' ,border: '1px solid gray', borderRadius: '5px'}}  to="/login">Login</NavLink> 
                 }
                     <Navbar.Text>
-                        signed in as: <a href = '#login'>{users?.displayName}</a>
+                        <a href = '#login'>{users?.displayName}</a>
                     </Navbar.Text>
 
                  </Nav>

@@ -1,0 +1,20 @@
+.extra2 {
+    text-align: center;
+    background-color: rgb(16, 207, 188);
+    margin: 30px;
+    padding: 15px;
+}
+.extra2 h2 {
+    color: white;
+}
+.extra2 span {
+    color: rgba(255, 0, 0, 0.911);
+}
+
+.extra2 h4 {
+    color:rgba(255, 0, 0, 0.829);
+}
+.healtouch{
+    font-size: 25px;
+    color:rgba(255, 99, 71, 0.945);
+}
