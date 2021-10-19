@@ -5,12 +5,19 @@ import NotFound from './pages/NotFound/NotFound';
 import AllServices from './pages/AllServices/AllServices';
 import AllService from './pages/AllService/AllService';
 import Login from './pages/Login/Login/Login';
+import Header from './pages/Header/Header';
+import Footer from './pages/Footer/Footer';
+import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
+        <AuthProvider>
         <Router>
+        <Header></Header>
           <Switch>
+
               <Route exact path="/">
                 <Home></Home>
               </Route>
@@ -23,9 +30,9 @@ function App() {
                 <Login></Login>
               </Route>
 
-              <Route path="/allservices/:serviceId">
+              <PrivateRoute path="/allservices/:serviceId">
                 <AllServices></AllServices>
-              </Route>
+              </PrivateRoute>
 
               <Route path="/allservice">
                 <AllService></AllService>
@@ -36,7 +43,9 @@ function App() {
               </Route>
 
           </Switch>
+          <Footer></Footer>
        </Router>
+        </AuthProvider>
     </div>
   );
 }

@@ -9,6 +9,7 @@ const AllServices = () => {
     return (
         <div>
             <h2> this is {serviceId}</h2>
+            
         </div>
     );
 };

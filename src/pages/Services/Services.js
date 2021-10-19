@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import AllServices from '../AllServices/AllServices';
 import Service from '../Service/Service';
 import './Services.css';
 
@@ -20,7 +21,8 @@ const Services = () => {
                     key = {service.id}
                     service={service}
                     ></Service>)
-                }
+                    }
+                    
             
             
         </div>
