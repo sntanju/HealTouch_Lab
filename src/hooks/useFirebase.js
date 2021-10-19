@@ -22,7 +22,7 @@ const useFirebase = () => {
     }
 
     useEffect( () => {
-        const unsubscribed = onAuthStateChanged(auth, user => {
+        const unsubscribed = onAuthStateChanged(auth, users => {
             if(users) {
                 setUsers(users);
             }

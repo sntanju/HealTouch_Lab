@@ -7,7 +7,7 @@ const PrivateRoute = ({ children, ...rest }) => {
     const {users, loading} = useAuth();
 
     if(loading) {
-        return <Spinner animation="border" varient='danger' />
+        return <Spinner animation="border" varient='success' />
     }
 
     return (
