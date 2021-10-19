@@ -3,12 +3,15 @@ import './App.css';
 import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
 import AllServices from './pages/AllServices/AllServices';
-import AllService from './pages/AllService/AllService';
 import Login from './pages/Login/Login/Login';
 import Header from './pages/Header/Header';
 import Footer from './pages/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './pages/PrivateRoute/PrivateRoute';
+import ShowServices from './pages/ShowServices/ShowServices';
+import Appointment from './pages/Appointment/Appointment';
+import Aboutus from './pages/Aboutus/Aboutus';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -34,13 +37,25 @@ function App() {
                 <AllServices></AllServices>
               </PrivateRoute>
 
-              <Route path="/allservice">
-                <AllService></AllService>
-              </Route>
+              <PrivateRoute path="/showservices">
+                <ShowServices></ShowServices>
+              </PrivateRoute>
+              
+              <PrivateRoute path="/appoinment">
+                <Appointment></Appointment>
+              </PrivateRoute>
 
+              <Route path="/aboutus">
+                <Aboutus></Aboutus>
+              </Route>
+              
+              <Route path="/contact">
+                <Contact></Contact>
+              </Route>
               <Route path="*">
                 <NotFound></NotFound>
               </Route>
+
 
           </Switch>
           <Footer></Footer>
