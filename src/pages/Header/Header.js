@@ -23,6 +23,8 @@ const Header = () => {
                  <NavLink style={{textDecoration:"none", margin: '10px', padding: '10px', color: 'white', backgroundColor: 'teal' ,border: '1px solid gray', borderRadius: '5px'}}  to="/aboutus">About Us</NavLink>
 
                  <NavLink  style={{textDecoration:"none", margin: '10px', padding: '10px', color: 'white', backgroundColor: 'teal' ,border: '1px solid gray', borderRadius: '5px'}}  to="/contact">Contact Us</NavLink>
+
+                 <NavLink  style={{textDecoration:"none", margin: '10px', padding: '10px', color: 'white', backgroundColor: 'teal' ,border: '1px solid gray', borderRadius: '5px'}}  to="/register">Register</NavLink>
                  
                  {users?.email ? 
                 <button onClick={logOut} className="detail-btn">LogOut</button>: 

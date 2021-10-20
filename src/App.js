@@ -12,6 +12,7 @@ import ShowServices from './pages/ShowServices/ShowServices';
 import Appointment from './pages/Appointment/Appointment';
 import Aboutus from './pages/Aboutus/Aboutus';
 import Contact from './pages/Contact/Contact';
+import Register from './pages/Register/Register';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
 
               <Route path="/login">
                 <Login></Login>
+              </Route>
+
+              <Route path="/register">
+                <Register></Register>
               </Route>
 
               <PrivateRoute path="/allservices/:serviceId">

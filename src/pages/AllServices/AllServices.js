@@ -8,7 +8,8 @@ const AllServices = () => {
 
     return (
         <div>
-            <h2> this is {serviceId}</h2>
+            <h2>Details of Each Service</h2>
+            <h2> This is our service{serviceId}</h2>
             
         </div>
     );
