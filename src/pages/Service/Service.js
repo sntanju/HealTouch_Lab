@@ -16,7 +16,7 @@ const Service = (props) => {
             </div>
             <div className="button">
             <Link to={`/allservices/${id}`}>
-            <button className="detail-btn">Choose {name}</button></Link>
+            <button className="detail-btn">Detail</button></Link>
             </div>
         </div>
     );

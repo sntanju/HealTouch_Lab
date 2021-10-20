@@ -19,7 +19,7 @@ const ShowServices = () => {
         <div>
             <h2 className="all-services">All Of Our Services</h2>
             
-        <div className="services">
+        <div className="services allservices">
             
         {
             services.map(service => <ServicesRoute

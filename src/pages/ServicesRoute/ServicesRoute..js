@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './ServicesRoute.css';
 
 const ServicesRoute = (props) => {
 
@@ -8,7 +8,7 @@ const ServicesRoute = (props) => {
     return (
         <div>
            
-            <div className="service">
+            <div className="service serve">
             <img src={img} alt="" />
             <div className="service-info">
             <h2>{name}</h2>
@@ -16,10 +16,7 @@ const ServicesRoute = (props) => {
             <h4>{doctor}</h4>
             
             </div>
-            <div className="button">
-            <Link to={`/allservices/${id}`}>
-            <button className="detail-btn">Choose {name}</button></Link>
-            </div>
+            
 
             </div>
         </div>

@@ -39,6 +39,7 @@ const Register = () => {
             signInWithEmailAndPassword(auth, email, password)
             .then(result => {
                 const user = result.user;
+                setError('');
 
             })
             .catch(error => {

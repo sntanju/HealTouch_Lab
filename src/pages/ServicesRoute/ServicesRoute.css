@@ -1,0 +1,5 @@
+.serve:hover {
+    background-color: rgba(0, 255, 255, 0.219);
+    box-shadow: 10px 10px 10px dimgrey;
+    border: 3px dotted maroon;
+}

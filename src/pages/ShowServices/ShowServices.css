@@ -1,5 +1,13 @@
 .all-services {
+   
     padding: 10px;
     background-color: black;
     color: rgba(255, 255, 0, 0.836);
 }
+.allservices {
+    margin: 20px 150px 20px 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
