@@ -1,6 +1,6 @@
 import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword } from 'firebase/auth';
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
+
 import './Register.css';
 
 const Register = () => {
@@ -25,21 +25,25 @@ const Register = () => {
 
     const handleRegistration = (e) => {
         e.preventDefault();
-        console.log(email, password);
+        
 
         if (password.length < 6) {
-            setError('Password Cant be Less Than 6 Characters.')
+            setError("Password Can't be Less Than 6 Characters.")
             return;
         }
 
         login ? processLogin(email, password) : createNewUser(email, password);
+       
     }
 
         const processLogin = (email, password) => {
             signInWithEmailAndPassword(auth, email, password)
+            
             .then(result => {
+                
                 const user = result.user;
                 setError('');
+                
 
             })
             .catch(error => {
@@ -51,7 +55,7 @@ const Register = () => {
         createUserWithEmailAndPassword(auth, email, password)
         .then(result => {
             const user = result.user;
-            console.log(user);
+           
             setError('')
         })
         .catch(error => {
