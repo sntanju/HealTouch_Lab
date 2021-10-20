@@ -13,3 +13,7 @@
 * All our instuments used for lab test are utmost modern technology based and highly accurate
 
 * We provide world class service for our beloved customer and support them 24/7 with email & cell for customer satisfaction
+
+### Description
+
+We are very enthusiatic to provide people a very world class modern technology based treatment care for people.We are highly committed to kept our mission on track with these highly modern instrument based lab tests with highly experienced Doctor and lab technician.We are also enhanced in keeping our promise and to have our customer more and more satisfactory service from us.
